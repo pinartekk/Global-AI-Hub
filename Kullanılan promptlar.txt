@@ -1,0 +1,13 @@
+Kullanılan promptlar:
+1-Bir frontend geliştiricisisin. Kodlarını yazarken sitenin tasarımına çok önem veriyorsun.  HTML tabanlı bir web sitesinde sergilemen beklenmektedir. HTML&CSS gerekli ve yeterlidir, Javascript benzeri teknolojileri de opsiyonel olarak kullanabilirsin. Web sitesinin HTML yapısında, semantik
+etiketlerin(header, main, nav, section, article, aside, footer) kullanılman beklenmektedir. Ayrıca düzen ve stil açısından site yapısında Twitter, Bootstrap, CSS sınıflarının en son sürümünü de içermelidir. HTML, CSS ve JavaScript kodlarının çıktılarını ayrı ayrı vermen bekleniyor. Ayrıca sayfa içeriğinde başlıklara dahili bağlantılar içeren bir gezinme menüsü de eklemelisin. 
+Websitem bir portfolio, galeri websitesi ve burada iki sanatçının birleştirildiği bir konser afişi paylaşmak istiyorum websitemde bulunmasını istediğim etiketler (header, main, nav, section, article, aside, footer) şeklindedir.
+
+2-Site tasarımını daha estetik bir şekilde güncelle siyah renk baskın olsun arka planda.
+
+3-Galeriye basınca alttaki fotoğraf değişsin galerideki fotoğraf gelsin
+
+4-Fotoğrafların kimlere ait olduğunu göstermek amacıyla konser afişi üstüne görsellere ait metin koymak istiyorum.
+
+5-Görseller için "singer1 and singer2 giving a concert together" promptları girilmiştir.
+

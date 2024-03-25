@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio ve Galeri Websitesi</title>
+    <!-- Bootstrap CSS dosyası -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+    <!-- Özel CSS dosyası -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header bölümü -->
+    <header>
+        <!-- Bootstrap Navbar bileşeni -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <!-- Site başlığı -->
+                <a class="navbar-brand" href="#">HAYALİ İKİLİLER</a>
+                <!-- Navbar açılır/kapanır butonu -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar menüsü -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <!-- Menü öğeleri -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Hakkımda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Galeri</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Ana içerik bölümü -->
+    <main>
+        <!-- Hakkımda bölümü -->
+        <section id="about">
+            <article>
+                <h2>Hakkımda</h2>
+                <p>Merhaba! Ben Pınar TEK, yapay zeka ve sanatı bir araya getiren bir prompt mühendisliği öğrencisiyim. Bu site,Global AI Hub Prompt Mühendisliği eğitimimizin bir ürünü. Amacım, yapay zeka ile ünlüleri bir araya getirerek insanlara ilham vermek. Burası sadece bir web sitesi değil, aynı zamanda teknoloji ile sanat arasındaki köprüyü güçlendiren bir platform. Sizi bu ilham verici yolculuğa davet etmekten mutluluk duyuyorum.
+
+                    İlerleyen zamanlarda daha fazla keşif için birlikte olacağımızı umuyorum.</p>
+            </article>
+        </section>
+        
+          <!-- Galeri bölümü -->
+          <section id="gallery">
+            <article>
+                <h2>Galeri</h2>
+                <div class="gallery-container">
+                    <div class="gallery-item">
+                        <img src="4f56344809bfacd03e47e2956d3914a876db5493.jpg" alt="Resim 1">
+                        <div class="image-caption">Taylor swift & Justin Timberlake</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="687d1fb737994de00d5cbab07bf8b9ce350d8862.jpg"Resim 2">
+                        <div class="image-caption">Eminem & Shakira</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="e940a24510b967fed9c3db46ac2dbbddf7dab0c8.jpg" alt="Resim 3">
+                        <div class="image-caption">justin bieber & Michael Jackson</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="ead33dafd56f9741100dbd3f37923d21f239f591.jpg "Resim 4">
+                        <div class="image-caption">Eminem & Ed Sheeran</div>
+                    </div>
+                    <!-- Diğer galeri öğeleri buraya gelecek -->
+                </div>
+            </article>
+        </section>
+        
+        <!-- Yan içerik bölümü -->
+        <aside>
+            <h2>Konser Afişi</h2>
+            <img id="selected-image" alt="Konser Afişi">
+        </aside>
+    </main>
+    
+    <!-- Footer bölümü -->
+    <footer>
+        <p>Telif Hakkı © 2024 Portfolio</p>
+    </footer>
+    
+    <!-- Bootstrap JavaScript dosyası -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Özel JavaScript dosyası -->
+    <script src="scripts.js"></script>
+</body>
+</html>
